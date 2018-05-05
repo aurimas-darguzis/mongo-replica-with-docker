@@ -1,0 +1,5 @@
+MONGO_USER_ADMIN=aurimas
+MONGO_PASS_ADMIN=aurimasPassword2018
+
+MONGO_REPLICA_ADMIN=replicaAdmin
+MONGO_PASS_REPLICA=replicaAdminPassword2018
