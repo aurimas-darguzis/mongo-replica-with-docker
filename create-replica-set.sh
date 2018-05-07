@@ -120,7 +120,7 @@ function createMongoDBNode {
 function wait_for {
   echo ">>>>>>>>>>>>>>>> waiting for mongodb"
   start_ts=$(date +%s)
-  while:
+  while :
   do
     (echo > /dev/tcp/$1/$2) >/dev/null 2>&1
     result=$?
